@@ -1,16 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Button, Progress} from 'semantic-ui-react'
+import {Image, Comment, Form, Button, Header} from 'semantic-ui-react'
+
+import kenshi from "./straysheep.jpg"
 
 function App() {
   return (
+
 <div>
-  <p> 안녕하세요</p>
-  <Button primary> 하이하이 </Button>
-  <Progress percent = {66} indicating/>
+    <Image src = {kenshi} centered style = {{"width": 800, "height":800}}/>
   </div>
   );
 }
+
 
 export default App;
